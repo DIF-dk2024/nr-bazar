@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="icon" type="image/jpeg" href="{{ url_for('static', filename='logo.jpeg') }}">
   <title>NR BAZAR — Покупаю / Продаю</title>
   <style>
     :root{
@@ -115,7 +116,7 @@
 
     <div class="hero">
       <h2>Покупаю - Продаю</h2>
-      <p>Нажми кнопку, заполни форму и приложи до {{ max_files }} фото.</p>
+      <p>Нажми кнопку, заполни форму и приложи фото.</p>
     </div>
 
     {% with messages = get_flashed_messages() %}
@@ -238,10 +239,7 @@
       </form>
     </div>
 
-    <div class="meta">
-      CSV: <code>{{ data_dir }}/submissions.csv</code><br/>
-      Фото: <code>{{ uploads_dir }}/&lt;ID&gt;/...</code>
-    </div>
+    <div class="meta">Numerical Research</div>
   </div>
 
   <script>

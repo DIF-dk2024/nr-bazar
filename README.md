@@ -1,4 +1,4 @@
-# Собака-Бяка (Render Disk)
+# NR BAZAR (Render Disk)
 
 Одна страница: **ПОКУПАЮ / ПРОДАЮ** → форма → данные в **CSV** + фото (только для "ПРОДАЮ") в папку **uploads** на Render Persistent Disk.
 
